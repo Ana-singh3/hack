@@ -1,0 +1,300 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: #c5c4ae;
+  overflow: hidden;
+}
+.rectangle {
+  position: relative;
+  width: 1440px;
+  height: 75px;
+  margin: 0 0 0 0;
+  background: #b19470;
+  z-index: 1;
+}
+.contact-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 37px;
+  top: 25px;
+  left: 1169px;
+  color: #714423;
+  font-family: Tajawal, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 4;
+}
+.about-us {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 37px;
+  top: 25px;
+  left: 131px;
+  color: #714423;
+  font-family: Tajawal, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 7;
+}
+.order-now {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 37px;
+  top: 25px;
+  left: 1017px;
+  color: #714423;
+  font-family: Tajawal, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 3;
+}
+.samples {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 37px;
+  top: 25px;
+  left: 273px;
+  color: #714423;
+  font-family: Tajawal, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 5;
+}
+.home {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 37px;
+  top: 25px;
+  left: 27px;
+  color: #714423;
+  font-family: Tajawal, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 6;
+}
+.sign-in {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  height: 37px;
+  top: 25px;
+  left: 1329px;
+  color: #714423;
+  font-family: Tajawal, var(--default-font-family);
+  font-size: 25px;
+  font-weight: 800;
+  line-height: 30px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 2;
+}
+.image {
+  position: absolute;
+  width: 1440px;
+  height: 949px;
+  top: 75px;
+  left: 0;
+  background: url(./assets/images/1d2c7e6a-2754-40a6-9a15-e2e0bce0866b.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+}
+.innovative-solutions {
+  position: absolute;
+  width: 1296px;
+  height: 94.04%;
+  top: 7.52%;
+  left: 50%;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.544px;
+  text-align: center;
+  transform: translate(-50.15%, 0);
+  z-index: 10;
+}
+.what-sets-us-apart {
+  position: relative;
+  color: #643a08;
+  font-family: Dangrek, var(--default-font-family);
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 38.4px;
+  text-align: center;
+}
+.line-break {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.544px;
+  text-align: center;
+}
+.innovative-solutions-1 {
+  position: relative;
+  color: #0d3f18;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: center;
+}
+.colon {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: center;
+}
+.tetra-packaging {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 37px;
+  text-align: center;
+}
+.packaging-solutions {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: center;
+}
+.sustainability {
+  position: relative;
+  color: #043408;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: center;
+}
+.colon-2 {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: center;
+}
+.tetra-packaging-3 {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 37px;
+  text-align: center;
+}
+.packaging-solutions-4 {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: center;
+}
+.customization-flexibility {
+  position: relative;
+  color: #023307;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: center;
+}
+.colon-5 {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 37px;
+  text-align: center;
+}
+.tetra-packaging-6 {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 37px;
+  text-align: center;
+}
+.packaging-solutions-7 {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: center;
+}
+.tetra-packaging-8 {
+  position: relative;
+  color: #000000;
+  font-family: Darker Grotesque, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 37px;
+  text-align: center;
